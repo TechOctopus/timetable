@@ -1,0 +1,293 @@
+body {
+    background-color: #dddddd;
+    font-family: 'Roboto', sans-serif;
+    color: #2e2e2e;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #831135;
+}
+
+.left{
+    width: 20%;
+}
+
+.center{
+    width: 60%;
+}
+
+.right{
+    width: 20%;
+}
+
+.center > a{
+    font-size: 32px;
+    
+    text-align: center;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.right > a{
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.center > a:hover{
+    color: #fdfdfd;
+}
+
+.right > a:hover{
+    color: #fdfdfd;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight:400;
+    text-align: center;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+h1 > a:hover {
+    color: #fdfdfd;
+}
+
+p {
+    text-align: center;
+}
+
+p > a {
+    font-weight:500;
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+p > a:hover {
+    color: #831135;
+}
+
+.link {
+    font-weight:400;
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+.link:hover{
+    color: #831135;
+}
+
+.seminar {
+    width: 148px;
+    text-align: center;
+    background-color: #D7F9FF;
+}
+
+.math {
+    width: 226px;
+    text-align: center;
+    background-color: #D7F9FF;
+}
+
+.leacter{
+    width: 148px;
+    text-align: center;
+    background-color: #D4FFD4;
+}
+
+.table{
+    width: 908px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+td{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.day{
+    width: 40px;
+    background-color: white;
+}
+
+.time{
+    margin: 0px;
+    width: 70px;
+    background-color: white;
+}
+
+.free{
+    margin: 0px;
+    width: 70px;
+    background-color: #f0f0f0;
+}
+
+.leacter:hover {
+    background-color: #bdffbd;
+    border:dotted;
+}
+
+.seminar:hover,
+.math:hover {
+    background-color: #b6f4ff;
+    border:dotted;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0c0c0c;
+        font-family: 'Roboto', sans-serif;
+        color: #c2c2c2;
+        margin: 0;
+        text-align: center;
+    }
+    
+    header{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #490a1e;
+    }
+    
+    .left{
+        width: 20%;
+    }
+    
+    .center{
+        width: 60%;
+    }
+    
+    .right{
+        width: 20%;
+    }
+    
+    .center > a{
+        font-size: 32px;
+        
+        text-align: center;
+        text-decoration: none;
+        color: #e7e7e7;
+    }
+    
+    .right > a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        color: #e7e7e7;
+    }
+    
+    .center > a:hover{
+        color: #fdfdfd;
+    }
+    
+    .right > a:hover{
+        color: #fdfdfd;
+    }
+    
+    h1 > a {
+        text-decoration: none;
+        color: #c2c2c2;
+    }
+    
+    h1 > a:hover{
+        color: #831135;
+    }
+    
+    p{
+        text-align: center;
+    }
+    
+    p > a{
+        font-weight:500;
+        text-decoration: none;
+        color: #c2c2c2;
+    }
+    
+    p > a:hover{
+        color: #831135;
+    }
+    
+    .link{
+        font-weight:400;
+        text-decoration: none;
+        color: #c2c2c2;
+    }
+    
+    .link:hover{
+        color: #831135;
+    }
+    
+    .seminar{
+        width: 148px;
+        text-align: center;
+        background-color: #1b353a;
+    }
+    
+    .math{
+        width: 226px;
+        text-align: center;
+        background-color: #1e3d1e;
+    }
+    
+    .leacter{
+        width: 148px;
+        text-align: center;
+        background-color: #1e3d1e;
+    }
+    
+    .table{
+        width: 908px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    td{
+        border: 2px solid #38383c;
+        border-radius: 5px;
+    }
+    
+    .day{
+        width: 40px;
+        background-color: #1b1b1c;
+    }
+    
+    .time{
+        margin: 0px;
+        width: 70px;
+        background-color: #1b1b1c;
+    }
+    
+    .free{
+        margin: 0px;
+        width: 70px;
+        background-color: #1b1b1c;
+    }
+    
+    .leacter:hover,
+    .math:hover{
+        background-color: #0c180c;
+        border:dotted;
+    }
+    
+    .seminar:hover{
+        background-color: #0c171a;
+        border:dotted;
+    }
+}
