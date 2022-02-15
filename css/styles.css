@@ -242,7 +242,7 @@ td{
     .math{
         width: 226px;
         text-align: center;
-        background-color: #1e3d1e;
+        background-color: #1b353a;
     }
     
     .leacter{
@@ -280,13 +280,13 @@ td{
         background-color: #1b1b1c;
     }
     
-    .leacter:hover,
-    .math:hover{
+    .leacter:hover {
         background-color: #0c180c;
         border:dotted;
     }
     
-    .seminar:hover{
+    .seminar:hover,
+    .math:hover {
         background-color: #0c171a;
         border:dotted;
     }
